@@ -1,7 +1,7 @@
 function randomRGB() {
     //this will give a whole number instead of a dicimal.
     const r = Math.floor(Math.random() * 256);
-    const g = Math.floor(Math.random() * 256);
+    const g = 0;
     const b = Math.floor(Math.random() * 256);
     return `rgb(${r}, ${g}, ${b})`;
 }
